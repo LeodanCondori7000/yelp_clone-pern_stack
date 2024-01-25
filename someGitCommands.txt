@@ -1,0 +1,13 @@
+git checkout -b aux-branch or git checkout -b collab-branch
+git add .
+git commit -m "some relevant message"
+git push -u origin aux-branch
+- I need to make a pull request
+git checkout main
+git pull origin main
+git branch -d aux-branch
+
+
+
+
+rm -fr .git
